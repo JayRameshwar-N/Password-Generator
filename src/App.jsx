@@ -51,7 +51,7 @@ function App() {
               className='w-full p-2 rounded text-white bg-gray-700'
               readOnly
               placeholder='Password'
-              style={{ backgroundColor:'' }}
+              // style={{ backgroundColor:'' }}
               ref={passwordInputRef}
               onMouseUp={(e) => e.preventDefault()} // Prevents selection on mouseup
             />
